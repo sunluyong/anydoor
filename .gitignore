@@ -57,3 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
+# local temp files
+
+*.swp
+.idea
+.DS_Store

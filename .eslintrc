@@ -1,0 +1,15 @@
+{
+  "extends": ["eslint:recommended"],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": false,
+    "codeFrame": false
+  },
+  "env": {
+      "browser": false,
+      "node": true,
+      "es6": true,
+      "mocha": true
+  }
+}
