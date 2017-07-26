@@ -62,3 +62,4 @@ typings/
 *.swp
 .idea
 .DS_Store
+build
