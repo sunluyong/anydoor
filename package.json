@@ -1,0 +1,21 @@
+{
+  "name": "anydoor",
+  "version": "0.0.2",
+  "description": "tiny nodejs web server",
+  "main": "build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samaritan89/anydoor.git"
+  },
+  "keywords": [
+    "static",
+    "webserver"
+  ],
+  "author": "Samaritan89",
+  "email": "sunluyong@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Samaritan89/anydoor/issues"
+  },
+  "homepage": "https://github.com/Samaritan89/anydoor#readme"
+}
