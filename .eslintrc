@@ -6,6 +6,9 @@
     "allowImportExportEverywhere": false,
     "codeFrame": false
   },
+  "rules": {
+    "no-console": ["error", { "allow": ["warn", "error", "info"] }]
+  },
   "env": {
       "browser": false,
       "node": true,

@@ -1,7 +1,7 @@
 {
   "name": "anydoor",
-  "version": "0.0.1",
-  "description": "tiny nodejs web server",
+  "version": "0.0.3",
+  "description": "Tiny NodeJS Web server",
   "main": "build/index.js",
   "bin": {
     "anydoor": "bin/anydoor"
@@ -9,13 +9,11 @@
   "scripts": {
     "fix": "eslint --fix .",
     "lint": "eslint .",
-    "build": "rm -rf build && babel src --out-dir build --copy-files",
-    "test": "mocha --compilers js:babel-core/register"
+    "test": "mocha"
   },
   "pre-commit": [
     "fix",
     "lint",
-    "build",
     "test"
   ],
   "repository": {
@@ -23,7 +21,7 @@
     "url": "git+https://github.com/Samaritan89/anydoor.git"
   },
   "keywords": [
-    "static",
+    "node",
     "webserver"
   ],
   "author": "Samaritan89",
@@ -34,13 +32,13 @@
   },
   "homepage": "https://github.com/Samaritan89/anydoor#readme",
   "dependencies": {
+    "chalk": "^2.0.1",
+    "debug": "^2.6.8",
+    "handlebars": "^4.0.10",
     "yargs": "^8.0.2"
   },
   "devDependencies": {
-    "babel-cli": "~6.24.1",
-    "babel-core": "~6.24.1",
-    "babel-eslint": "~7.2.2",
-    "babel-preset-env": "^1.5.2",
+    "babel-eslint": "^7.2.3",
     "eslint": "~3.19.0",
     "mocha": "~3.2.0",
     "pre-commit": "~1.2.2"

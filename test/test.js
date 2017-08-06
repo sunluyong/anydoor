@@ -1,8 +1,7 @@
-import assert from 'assert';
+const assert = require('assert');
 
-describe('', function() {
-
-  it('', () => {
+describe('test', function () {
+  it('test', () => {
     const actual = '';
     const expected = '';
     assert.equal(actual, expected);

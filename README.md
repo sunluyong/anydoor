@@ -16,5 +16,5 @@ anydoor -p 8080  # 设置端口号为 8080
 
 anydoor -h test.com  # 设置 host 为 test.com
 
-anywhere -d /projects  # 自定义根目录
+anydoor -d /projects  # 自定义根目录
 ```

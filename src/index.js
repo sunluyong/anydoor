@@ -1,5 +1,5 @@
-import Server from './server';
 import yargs from 'yargs';
+import Server from './app';
 
 const argv = yargs
   .usage('anywhere [options]')

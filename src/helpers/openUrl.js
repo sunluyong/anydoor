@@ -1,7 +1,4 @@
-import {
-  exec,
-  spawn
-} from 'child_process';
+const { exec } = require('child_process');
 
 export default url => {
   switch (process.platform) {
@@ -11,7 +8,5 @@ export default url => {
     case "win32":
       exec('start ' + url);
       break;
-    default:
-      spawn('xdg-open', [url]);
   }
 };
