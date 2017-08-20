@@ -1,21 +1,34 @@
 {
-  "name": "anydoor",
-  "version": "0.0.2",
-  "description": "tiny nodejs web server",
-  "main": "build/index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Samaritan89/anydoor.git"
-  },
-  "keywords": [
-    "static",
-    "webserver"
-  ],
-  "author": "Samaritan89",
-  "email": "sunluyong@gmail.com",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Samaritan89/anydoor/issues"
-  },
-  "homepage": "https://github.com/Samaritan89/anydoor#readme"
+    "name": "anydoor",
+    "version": "0.0.2",
+    "description": "tiny nodejs web server",
+    "main": "build/index.js",
+    "scripts": {
+        "lint": "eslint .",
+        "fix": "eslint --fix ."
+    },
+    "pre-commit": [
+        "fix",
+        "lint"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Samaritan89/anydoor.git"
+    },
+    "keywords": [
+        "static",
+        "webserver"
+    ],
+    "author": "Samaritan89",
+    "email": "sunluyong@gmail.com",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Samaritan89/anydoor/issues"
+    },
+    "homepage": "https://github.com/Samaritan89/anydoor#readme",
+    "devDependencies": {
+        "babel-eslint": "^7.2.3",
+        "eslint": "^4.5.0",
+        "pre-commit": "^1.2.2"
+    }
 }
