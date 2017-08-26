@@ -30,5 +30,8 @@
         "babel-eslint": "^7.2.3",
         "eslint": "^4.5.0",
         "pre-commit": "^1.2.2"
+    },
+    "dependencies": {
+        "chalk": "^2.1.0"
     }
 }
