@@ -32,6 +32,7 @@
         "pre-commit": "^1.2.2"
     },
     "dependencies": {
-        "chalk": "^2.1.0"
+        "chalk": "^2.1.0",
+        "handlebars": "^4.0.10"
     }
 }
