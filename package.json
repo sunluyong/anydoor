@@ -3,6 +3,9 @@
     "version": "0.0.5",
     "description": "tiny nodejs web server",
     "main": "build/index.js",
+    "bin": {
+        "anydoor": "bin/anydoor"
+    },
     "scripts": {
         "lint": "eslint .",
         "fix": "eslint --fix ."
