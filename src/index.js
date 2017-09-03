@@ -2,20 +2,20 @@ const yargs = require('yargs');
 const Server = require('./app');
 
 const argv = yargs
-  .usage('anydoor [options]')
+  .usage('anywhere [options]')
   .option('p', {
     alias: 'port',
-    describe: '自定义端口号',
-    default: '9527'
+    describe: '端口号',
+    default: 9527
   })
   .option('h', {
-    alias: 'host',
-    describe: '自定义 host',
+    alias: 'hostname',
+    describe: 'host',
     default: '127.0.0.1'
   })
   .option('d', {
     alias: 'root',
-    describe: '自定义根目录',
+    describe: 'root path',
     default: process.cwd()
   })
   .version()
@@ -25,4 +25,3 @@ const argv = yargs
 
 const server = new Server(argv);
 server.start();
-
