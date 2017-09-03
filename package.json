@@ -1,6 +1,6 @@
 {
     "name": "anydoor",
-    "version": "0.0.2",
+    "version": "0.0.5",
     "description": "tiny nodejs web server",
     "main": "build/index.js",
     "scripts": {
@@ -33,6 +33,7 @@
     },
     "dependencies": {
         "chalk": "^2.1.0",
-        "handlebars": "^4.0.10"
+        "handlebars": "^4.0.10",
+        "yargs": "^8.0.2"
     }
 }
