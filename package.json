@@ -1,6 +1,6 @@
 {
     "name": "anydoor",
-    "version": "0.0.5",
+    "version": "0.0.7",
     "description": "tiny nodejs web server",
     "main": "build/index.js",
     "bin": {

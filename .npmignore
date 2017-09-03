@@ -1,2 +1,5 @@
-src
 test
+.editorconfig
+.eslintignore
+.eslintrc.js
+
