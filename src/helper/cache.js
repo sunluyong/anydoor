@@ -16,7 +16,7 @@ function refreshRes(stats, res) {
   }
 
   if (etag) {
-    res.setHeader('ETag', `${stats.size}-${stats.mtime.toUTCString()}`); // mtime 需要转成字符串，否在在 windows 环境下会报错
+    res.setHeader('ETag', `${stats.size}-${stats.mtime.toUTCString()}`); // mtime 需要转成字符串，否则在 windows 环境下会报错
   }
 }
 
